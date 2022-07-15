@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  background-color: #132742;
+}
+
+/*Index page*/
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.table {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 60px;
+}
+
+.content {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #273333be;
+  width: 90%;
+  padding: 30px;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+
+a#name {
+  text-decoration: none;
+}
+
+
+.table > tbody {
+  vertical-align: middle;
+}
+
+.create-container button{
+  background-color: rgba(21, 114, 21, 0.897);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.create-container a {
+  text-decoration: none;
+}
+
+.create-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-edit button{
+  background-color: rgba(26, 91, 175, 0.897);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  border: 0;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.container-edit a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container-delete button{
+  background-color: rgba(175, 36, 26, 0.897);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.container-delete a {
+  text-decoration: none;
+  font-size: 14px;
+}
